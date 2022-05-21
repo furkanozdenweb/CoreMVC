@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewData["Title"] = "RazorDemo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@{
+    int ilkSayi = 29;
+    int ikiciSayi = 29;
+
+}
+
+@{ int sayi3 = 20;}
+<div>@ilkSayi</div>
+<div>admin@sameterdem.com.tr</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>RazorDemo</h1>
+
+    <div><h2>Döngüler</h2></div>
+    <h3>For</h3>
+    @{
+        int sayi = 10;
+
+        for (int i = 0; i < sayi; i++)
+        {
+           <div> @i</div>
+        }
+    }
+
+
+
+
+    <h3>While</h3>
+    @{
+        int yas = 20;
+        while (yas < 30)
+        {
+            yas++;
+            <p>Yaşım 30 dan küçük</p>
+        }
+    }
+
+
+
+    <div><h2>Koşullar</h2></div>
+    @if (sayi < 9)
+    {
+        <p>Koşul Doğru</p>
+    }
+    else if (sayi > 11)
+    {
+        <p>Koşul :Yanlış</p>
+    }
+    else
+    {
+        <p>Sayımız 10dur.</p>
+    }
+
+
+      <div>
+        Mail Adresim: admin@@sameterdem.com.tr
+    </div>
+
+
+@{
+    DateTime tarih = DateTime.Now.AddDays(-3);
+    string yil = DateTime.Now.Year.ToString();
+}
+    <div> @DateTime.Now</div>
+    <div> 3 Gün öncesi: @tarih</div>
+    <div> Bulunduğumuz Yıl: @yil</div>
+
+   
+
+    @try
+    {
+        //Hatasız çalışan kodlarımızı çalıştırmayı dener
+    }
+    catch (Exception hataBilgisi)
+    {
+        @hataBilgisi.Message; //Hata bilgisini ekrana yazdırdık.
+        //Hata olma durumunda çalışan kısım.
+        throw;
+    }
+    finally{
+        //Hata olsada olmasada gireceği alan.
+    }
+
+
+
+    <!-- Bir işlem veya bir nesne oluşturulduğunda kullanımı bittiği anda bellekten silmek için kullanılır ve Razor formatında da gerçekleştirilebilir. -->
+    <!-- Bir form bloğu oluşturup kullanımını sağlarız.-->
+    @using (Html.BeginForm()){ 
+        <input type="text" id="isim" name="isim"/>
+        <input type="text" id="yas" name="yas"/>
+        <button type="submit"  >Kaydet</button>
+        
+    }

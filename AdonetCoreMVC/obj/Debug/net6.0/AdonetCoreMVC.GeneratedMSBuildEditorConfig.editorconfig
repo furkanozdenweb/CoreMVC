@@ -1,0 +1,72 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AdonetCoreMVC
+build_property.RootNamespace = AdonetCoreMVC
+build_property.ProjectDir = E:\İsler\EgitimOrnekleri\Hafta13 - Adonet Core MVC\AdonetCoreMVC\AdonetCoreMVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\İsler\EgitimOrnekleri\Hafta13 - Adonet Core MVC\AdonetCoreMVC\AdonetCoreMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Calisan/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaXNhblxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Home/FormIleArama.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JtSWxlQXJhbWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Home/IkinciHtmlSayfam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJa2luY2lIdG1sU2F5ZmFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Home/IlkHtmlSayfam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbGtIdG1sU2F5ZmFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Home/Ornek1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcm5lazEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Home/Ornek2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcm5lazIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Home/Ornek3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcm5lazMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Home/RazorDemo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYXpvckRlbW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/İsler/EgitimOrnekleri/Hafta13 - Adonet Core MVC/AdonetCoreMVC/AdonetCoreMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-f4arxzlmpm

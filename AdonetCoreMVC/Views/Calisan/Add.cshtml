@@ -1,0 +1,68 @@
+﻿@model AdonetCoreMVC.CalisanAddViewModel
+
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Add</h1>
+
+
+<form asp-controller="Calisan" asp-action="Add">
+    <label asp-for="Calisan.Id"></label><input asp-for="Calisan.Id" /><br />
+    <label asp-for="Calisan.Adi"></label><input asp-for="Calisan.Adi" /><br />
+    <label asp-for="Calisan.Soyadi"></label><input asp-for="Calisan.Soyadi" /><br />
+    <label asp-for="Calisan.Maas"></label><input asp-for="Calisan.Maas" /><br />
+    <!--Şehir Seç:<input asp-for="Calisan.Sehir" />-->
+    <label asp-for="Calisan.Sehir"></label>
+    <select asp-for="Calisan.Sehir" asp-items="Model.sehirler" ></select><br />
+    <button type="submit">Kaydet</button>
+</form>
+
+
+   
+
+<br /><br />
+
+<calisan-list></calisan-list>
+
+
+
+<br /><br />
+
+<parametreli-calisan-list sayi="2"></parametreli-calisan-list>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Oluşturduğumuz bu alan layout üzerinde herhangi bir yere çekilebilir. -->
+@section BenimBolumum{  
+  <!-- <h1>Benim Bölümüm</h1>
+   <h2>Sadece belli sayfalarda yüklenmesini sitediğimiz bölümler oluştururuz.</h2>
+   <div>
+       Section örneği için oluşturulmuş alanımız burada yer almaktadır. İyi dersler. 
+   </div>-->
+}

@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "FormIleArama";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Form İle Arama</h1>
+
+@using (Html.BeginForm("AramaYap","Home")){ // Hangi aksiyonu çalıştıracağını submit olduğunda ve hangi controllerda olduğunu belirtiyoruz.
+   <strong>Key</strong>  @Html.TextBox("key")
+   <input type="submit" value="Arama Yap"/>
+}
